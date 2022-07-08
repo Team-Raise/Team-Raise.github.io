@@ -1,34 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team. Raise</title>
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Top navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+
+    <head>
+        <title>Team. Raise</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+            <img src="./images/teamlogo.png" alt="Team Logo" class="teamlogo" style="width: 5rem">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="teams.html">Team</a>
-              </li>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">팀원 소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">프로젝트 소개</a>
+                    </li>
 
-            </ul>
+                </ul>
 
+            </div>
         </div>
+    </nav>
+
+    <div class="titlebox">
+        <div class="teamname">Team. Raise</div>
+        <div class="projectname">GBSW Capstone Project (2022)</div>
     </div>
-</nav>
+
+    <section class="dark">
+        <div class="container py-4">
+
+            <article class="postcard dark blue">
+                <div class="postcard__text">
+                    <h1 class="postcard__title blue"><a href="#">주제</a></h1>
+                    <div class="postcard__subtitle small">
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                        <div class="description">농작물 혹은 식물을 키울때 필요한 자원들을 자동화한 스마트 팜</div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="postcard dark blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="./images/farming.png" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title blue"><a href="#">개발 동기 (프로젝트 선정 배경)</a></h1>
+                    <div class="postcard__subtitle small">
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                        가까운 지인이 농사를 짓는 모습을 보며 농작물들을 키울때 필요한 자원들을 자동적으로 공급시키면 어떨까, 라는 아이디어와 현재 지구 온난화의 주범 중 적지 않은 비중을
+                        차지하는 이산화탄소의 무분별한 배출을 막기 위해서 라는 아이디어를 결합하게 되었고, 개발까지 이루어졌습니다.
+                    </div>
+            </article>
+
+            <article class="postcard dark red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="./images/smartfarm.jpeg" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title red"><a href="#">수행 목표</a></h1>
+                    <div class="postcard__subtitle small">
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt"> 최우선으로는 농작물을 키울때 100% 자동화를 목표로 두고, 둘째로는 웹과 연동하여 간단한 인터페이스를 통해 현재
+                        작물의 상태 (습도, 산성도, 온도 등)을 나타내서 사용자가 한 눈에 필요한 정보들을 얻고, 현재 구상하는 마지막 궁극적인 목표는 현재로썬 간단한 작물만 가능하지만 넓은
+                        면적의 밭에서도 사용 가능한 기술을 구현하는 것입니다.</div>
+                </div>
+            </article>
+
+            <article class="postcard dark green">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+                    <div class="postcard__subtitle small">
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus
+                        eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat
+                        vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis
+                        enim quidem excepturi, illum quos!</div>
+                </div>
+            </article>
+
+            <article class="postcard dark yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus
+                        eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat
+                        vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis
+                        enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                        <li class="tag__item play yellow">
+                            <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
 </body>
+<script src="./script.js"></script>
+
 </html>
