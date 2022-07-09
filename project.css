@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap');
+
+body {
+  transition: background-color 1s ease;
+  background-color: #111;
+}
+
+.main {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+
+.project {
+  font-family: 'Edu SA Beginner', cursive;
+  margin-top: 3rem;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 14px;
+  color: #fff;
+}
+
+table {
+  border: none;
+  color: #000;
+}
+
+th {
+  background-color: #1c2786;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+td, th {
+  padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #fff;}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+}

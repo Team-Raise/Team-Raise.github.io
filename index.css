@@ -294,3 +294,7 @@ a, a:hover {
   text-align: center;
   font-size: 1.7rem;
 }
+
+.imagecontainer img {
+  width: 7rem;
+}
